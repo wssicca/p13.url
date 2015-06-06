@@ -1,0 +1,29 @@
+{
+    "name": "p13/url",
+    "type": "library",
+    "version": "1.0",
+    "description": "O P13/URL é um pacote de classes para representação dos elementos de uma URL",
+    "keywords": ["p13", "php5", "date", "datetime", "time"],
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Wagner Sicca",
+            "email": "wssicca@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "e-mail": "wssicca@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "p13\\url\\": "src/"
+        }
+    },
+    "require": {
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
